@@ -16,7 +16,13 @@
         <div class="slides">
             <section>
                 <h1>Quarterly Earnings Report</h1>
-                <p>Prepared by: 23f2003651<span>@</span>ds.study.iitm.ac.in</p>
+                <script>
+                    const email = "23f2003651@ds.study.iitm.ac.in";
+                    document.write('<p>Prepared by: ' + email + '</p>');
+                </script>
+                <noscript>
+                    <p>Prepared by: 23f2003651@ds.study.iitm.ac.in</p>
+                </noscript>
                 <aside class="notes">Introduce yourself and the agenda.</aside>
             </section>
 
@@ -66,4 +72,5 @@ print(calculate_roi(1000, 1200))  # Output: 20.0
 </body>
 
 </html>
+
 
