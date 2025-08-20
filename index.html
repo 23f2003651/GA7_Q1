@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Quarterly Earnings Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+    <!-- For math -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Quarterly Earnings Report</h1>
+                <p>Prepared by: 23f2003651@ds.study.iitm.ac.in</p>
+                <aside class="notes">Introduce yourself and the agenda.</aside>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+                    ## Markdown Slide: Key Metrics
+                    - Revenue: $10M
+                    - Profit: $2M
+
+                    Animated list:
+                    - Item 1 <span class="fragment"> (appears next)</span>
+                    - Item 2 <span class="fragment"> (appears after)</span>
+                </textarea>
+                <aside class="notes">Explain metrics in detail.</aside>
+            </section>
+
+            <section>
+                <h2>Code Sample: Financial Calculation</h2>
+                <pre><code class="language-python">
+def calculate_roi(investment, returns):
+    return (returns - investment) / investment * 100
+
+print(calculate_roi(1000, 1200))  # Output: 20.0
+                </code></pre>
+                <aside class="notes">Walk through the code logic.</aside>
+            </section>
+
+            <section>
+                <h2>Mathematical Equation: ROI Formula</h2>
+                \[ ROI = \frac{Returns - Investment}{Investment} \times 100 \]
+                <p class="fragment">Example: For $1000 investment and $1200 returns, ROI = 20%.</p>
+                <aside class="notes">Derive the formula step-by-step.</aside>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/notes/notes.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>
